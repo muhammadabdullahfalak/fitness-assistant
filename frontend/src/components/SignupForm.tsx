@@ -45,7 +45,7 @@ const SignupForm = () => {
     <form onSubmit={handleSignup} className="space-y-4 max-w-sm mx-auto">
       <h2 className="text-2xl font-bold">Sign Up</h2>
       <input
-        className="w-full border p-2 rounded"
+        className="text-black w-full border p-2 rounded"
         type="email"
         placeholder="Email"
         value={email}
@@ -53,7 +53,7 @@ const SignupForm = () => {
         required
       />
       <input
-        className="w-full border p-2 rounded"
+        className="text-black w-full border p-2 rounded"
         type="password"
         placeholder="Password"
         value={password}
